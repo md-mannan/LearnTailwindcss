@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
     "url": "https://github.com/md-mannan/LearnTailwindcss/issues"
   },
   "homepage": "https://github.com/md-mannan/LearnTailwindcss#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^4.1.3"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.3"
+  }
 }
